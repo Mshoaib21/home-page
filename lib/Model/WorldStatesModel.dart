@@ -24,6 +24,7 @@ class WorldStatesModel {
 
   WorldStatesModel.fromJson(dynamic json) {
     updated = json['updated'];
+
     cases = json['cases'];
     todayCases = json['todayCases'];
     deaths = json['deaths'];
